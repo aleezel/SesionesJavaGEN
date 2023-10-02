@@ -88,6 +88,15 @@ public class DatosPrimitivos {
 		 
 		 //Convertir de float a int
 		 float myFloart = 1.99f;
+	
+		//Conversión
+			int myNewFloat = (int) myFloat;
+			System.out.println(myNewFloat);
+			
+		//Convertir de char a int
+		char myChar = 'M';
+		int myNewChar = myChar;
+		System.out.println(myNewChar);
 		 
 		 
 		

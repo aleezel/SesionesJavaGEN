@@ -28,7 +28,9 @@ public class DoWhile {
 		 * 3. Retirar dineritos
 		 * 4. Salir
 		 * 
-		 * -Mostrar mensaje de bienvenida al usuario, para darle contexto y solicitar que elija una opción (número)
+		 * - Mostrar mensaje de bienvenida al usuario, darle contexto y solicitar que elija una opción (número)
+		 * - Mostrar al usuario la opción que eligió y permitir que elija otra opción
+		 * - El usuario puede salir del programa escribiendo 4 (salir)
 		 * */
 		
 		System.out.println("Bienvenido al Banco Generation, elige cualquiera de las opciones, para ello escribe el número que corresponda:");
@@ -64,7 +66,7 @@ public class DoWhile {
 			}
 		}while(opcionSeleccionada != 4);
 		
-			
+		skner.close();	
 		
 	}
 }
